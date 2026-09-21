@@ -36,7 +36,7 @@ const SuccessBackground = () => {
     );
 
     return (
-        <div ref={container} className="fixed inset-0 w-full h-full -z-10">
+        <div ref={container} className="fixed inset-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
             <div
                 style={{
                     background:
