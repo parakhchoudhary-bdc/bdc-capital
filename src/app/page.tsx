@@ -2,7 +2,12 @@ import React from "react";
 import Home from "./home/page";
 import { Metadata } from "next";
 
+const baseUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "https://bdccapital.in";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "BDC Capital – Accessible & Transparent NBFC Loan Solutions",
   description:
     "Explore BDC Capital Private Limited’s financial services — an RBI-registered NBFC offering personal, business, housing, vehicle, LAP, and cash credit loans with clarity, compliance, and customer-first support.",

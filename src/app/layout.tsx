@@ -18,7 +18,12 @@ const kohinoor = localFont({
   variable: "--font-kohinoor",
 });
 
+const baseUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "https://bdccapital.in";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "BDC Capital | Registered NBFC & Credit Solutions",
   description: "Finance that’s easier to access, when you need it most. Personal, Business, Housing, Vehicle & Working Capital loans by BDC Capital Private Limited.",
   icons: {
