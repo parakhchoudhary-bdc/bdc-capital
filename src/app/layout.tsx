@@ -19,12 +19,33 @@ const kohinoor = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "BDC Capital",
-  description: "Finance that’s easier to access, when you need it most.",
+  title: "BDC Capital | Registered NBFC & Credit Solutions",
+  description: "Finance that’s easier to access, when you need it most. Personal, Business, Housing, Vehicle & Working Capital loans by BDC Capital Private Limited.",
   icons: {
     icon: "/common/bdc-capital-logo.svg",
     shortcut: "/common/bdc-capital-logo.svg",
     apple: "/common/bdc-capital-logo.svg",
+  },
+  openGraph: {
+    title: "BDC Capital | Registered NBFC & Credit Solutions",
+    description: "Finance that’s easier to access, when you need it most. Personal, Business, Housing, Vehicle & Working Capital loans by BDC Capital Private Limited.",
+    siteName: "BDC Capital",
+    images: [
+      {
+        url: "/common/bdc-capital-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "BDC Capital - NBFC Financial Services",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BDC Capital | Registered NBFC & Credit Solutions",
+    description: "Finance that’s easier to access, when you need it most. Personal, Business, Housing, Vehicle & Working Capital loans by BDC Capital Private Limited.",
+    images: ["/common/bdc-capital-og.jpg"],
   },
 };
 
