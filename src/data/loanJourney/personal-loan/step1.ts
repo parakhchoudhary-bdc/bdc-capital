@@ -1,0 +1,72 @@
+import { Step } from "@/types/loanJourney";
+
+export const step1: Step = {
+  title: "Personal details",
+  form: [
+    {
+      inputLabel: "Full Name",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your full name",
+      id: "fullName",
+      name: "fullName",
+    },
+    {
+      inputLabel: "Mobile Number",
+      inputType: "number",
+      required: true,
+      inputPlaceholder: "Enter 10 digit mobile number",
+      id: "phoneNumber",
+      name: "phoneNumber",
+    },
+    {
+      inputLabel: "Email ID",
+      inputType: "email",
+      required: true,
+      inputPlaceholder: "Enter your email",
+      id: "email",
+      name: "email",
+    },
+    {
+      inputLabel: "Date of Birth",
+      inputType: "date",
+      required: true,
+      id: "dob",
+      name: "dob",
+      inputError: "Please enter a valid Date of birth",
+      ageError: "You must be at least 21 years old",
+    },
+    {
+      inputLabel: "PAN Number",
+      inputType: "text",
+      required: false,
+      inputPlaceholder: "Enter your valid PAN number",
+      id: "pan",
+      name: "pan",
+    },
+    {
+      inputLabel: "Aadhaar Number",
+      inputType: "text",
+      required: false,
+      inputPlaceholder: "Enter Aadhaar number",
+      id: "aadhaar",
+      name: "aadhaar",
+    },
+    {
+      inputLabel: "Current Address",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your current address",
+      id: "currentAddress",
+      name: "currentAddress",
+    },
+    {
+      inputLabel: "PIN Code",
+      inputType: "number",
+      required: true,
+      inputPlaceholder: "Enter PIN Code",
+      id: "pincode",
+      name: "pincode",
+    },
+  ],
+};

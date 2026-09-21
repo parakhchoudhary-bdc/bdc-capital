@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+  <!-- Option 3: Circular Monogram Outline -->
+  <g transform="translate(6, 8)">
+    <!-- Icon Mark: Dual Concentric Circle Outline -->
+    <circle cx="30" cy="30" r="27" fill="none" stroke="#005A45" stroke-width="2"/>
+    <circle cx="30" cy="30" r="23" fill="none" stroke="rgba(0,90,69,0.2)" stroke-width="1" stroke-dasharray="3 3"/>
+    
+    <!-- Stylized BDC Monogram Lines -->
+    <path d="M 19 18 L 30 18 C 36 18 39 21 39 25 C 39 28 36 30 30 30 L 19 30 L 19 42 L 32 42 C 38 42 41 39 41 35" fill="none" stroke="#005A45" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 14 36 C 20 44 32 44 42 30 C 44 27 46 22 46 16" fill="none" stroke="#2A9D8F" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="46" cy="16" r="2.5" fill="#2A9D8F"/>
+
+    <!-- Typography -->
+    <text x="72" y="38" font-family="'Figtree', 'Inter', system-ui, sans-serif" font-weight="800" font-size="24" letter-spacing="0.8px" fill="#005A45">BDC CAPITAL</text>
+    <text x="73" y="52" font-family="'Figtree', 'Inter', system-ui, sans-serif" font-weight="600" font-size="9" letter-spacing="2.5px" fill="#707070">NBFC • FINANCIAL SERVICES</text>
+  </g>
+</svg>

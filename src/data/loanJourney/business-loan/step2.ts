@@ -1,0 +1,121 @@
+import { Step } from "@/types/loanJourney";
+
+export const step2: Step = {
+  title: "Business details",
+  component: "business-details",
+  form: [
+    {
+      id: "businessName",
+      inputLabel: "Business name",
+      inputType: "text",
+      inputError: "Business name is required",
+      inputPlaceholder: "Enter your business name",
+      required: true,
+    },
+    {
+      id: "businessType",
+      inputLabel: "Business type",
+      inputType: "select",
+      inputError: "Business type is required",
+      inputPlaceholder: "Select your business type",
+      required: true,
+      options: [
+        { value: "proprietorship", label: "Proprietorship" },
+        { value: "partnership", label: "Partnership" },
+        { value: "private_limited", label: "Private limited" },
+        { value: "public_limited", label: "Public limited" },
+        { value: "llp", label: "LLP" },
+        { value: "other", label: "Other" },
+      ],
+    },
+    {
+      id: "businessTypeOther",
+      inputLabel: "Mention Business Type (if Others)",
+      inputPlaceholder: "Enter business type",
+      inputType: "text",
+      required: true,
+      visibilityRule: {
+        dependsOn: "businessType",
+        showWhenValueIs: "other",
+      },
+    },  
+    {
+      id: "natureofBusiness",
+      inputLabel: "Nature of Business",
+      inputPlaceholder: "Select nature of business",
+      inputType: "select",
+      options: [
+        { value: "e-commerce-seller", label: "E-commerce Seller" },
+        { value: "startup-entrepreneur", label: "Startup / Entrepreneur" },
+        { value: "service-provider", label: "Service Provider" },
+        { value: "restaurant-food-business", label: "Restaurant / Food Business" },
+        { value: "real-estate-broker", label: "Real Estate Broker" },
+        { value: "transport-logistics-business", label: "Transport / Logistics Business" },
+        { value: "manufacturer", label: "Manufacturer" },
+        { value: "shop-owner", label: "Shop Owner" },
+        { value: "retail-trader", label: "Retail / Wholesale Trader" },
+        { value: "distributor-dealer-contractor", label: "Distributor / Dealer / Contractor" },
+        { value: "other-business", label: "Other Business" },
+      ],
+      required: true,
+    },
+    {
+      id: "natureofBusinessOther",
+      inputLabel: "Mention Nature of Business (if Others)",
+      inputPlaceholder: "Enter nature of business",
+      inputType: "text",
+      required: true,
+      visibilityRule: {
+        dependsOn: "natureofBusiness",
+        showWhenValueIs: "other-business",
+      },
+    },
+
+    {
+      id: "yearInBusiness",
+      inputLabel: "Year in Business",
+      inputPlaceholder: "Select Year in Business",
+      inputType: "select",
+      options: [
+        { value: "0-3 years", label: "0-3 Years" },
+        { value: "4-7 years", label: "4-7 Years" },
+        { value: "8-12 years", label: "8-12 Years" },
+        { value: "12-20 years", label: "12-20 Years" },
+        { value: "20+ years", label: "20+ Years" },
+      ],
+      required: true,
+    },
+    {
+      inputLabel: "Authorised Signatory Role",
+      inputType: "select",
+      required: true,
+      id: "applicantRole",
+      name: "applicantRole",
+      tooltip: "This refers to the person who is officially allowed to apply, share details, and take decisions on behalf of the business.",
+      inputError: "Please select authorised signatory role",
+      options: [
+        { value: "business-owner", label: "Business Owner" },
+        { value: "partner", label: "Partner" },
+        { value: "director", label: "Director" },
+        { value: "authorised-representative", label: "Authorised Representative" },
+      ],
+    },
+    {
+      inputLabel: "PAN of Entity",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your valid PAN number",
+      id: "panOfEntity",
+      name: "panOfEntity",
+      tooltip: "The PAN number of the business or company.",
+    },
+    {
+      inputLabel: "GST Number (Optional)",
+      inputType: "text",
+      id: "gstNumber",
+      name: "gstNumber",
+      inputError: "Please enter GST Number",
+      inputPlaceholder: "Enter GST Number",
+    }
+  ]
+};

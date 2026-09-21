@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "heading": "Finance that’s easier to access, when you need it most.",
+    "ctaCardText": "BDC Capital Private Limited is an RBI-registered NBFC committed to accessible, transparent, and customer-first approach.",
+    "ctaCardContent1": "Apply Now",
+    "ctaCardContent2": "Get a Call Back"
+  },
+  "productsSection": {
+    "sectionHeading": "Our Loan Solutions",
+    "sectionText": "From personal requirements to business growth, discover loan solutions designed to support you at every stage.",
+    "products": [
+      {
+        "title": "Personal Loan",
+        "ctaCardText": "Flexible funding support for personal requirements, assessed responsibly and transparently.",
+        "ctaCardContent": "Know More"
+      },
+      {
+        "title": "Business Loan",
+        "ctaCardText": "Credit solutions to support business growth and working capital needs, assessed on a case-to-case basis.",
+        "ctaCardContent": "Know More"
+      },
+      {
+        "title": "Housing Loan",
+        "ctaCardText": "Financing solutions for residential property requirements, subject to assessment and verification.",
+        "ctaCardContent": "Know More"
+      },
+      {
+        "title": "Vehicle Loan",
+        "ctaCardText": "Funding support for the purchase of new or used vehicles, based on eligibility and assessment.",
+        "ctaCardContent": "Know More"
+      },
+      {
+        "title": "Loan Against Property",
+        "ctaCardText": "Secured loan solutions against residential or commercial property, subject to evaluation.",
+        "ctaCardContent": "Know More"
+      },
+      {
+        "title": "Cash Credit Facility",
+        "ctaCardText": "Working capital solutions designed to support day-to-day business operations and short-term funding needs.",
+        "ctaCardContent": "Know More"
+      }
+    ]
+  },
+  "whySection": {
+    "sectionHeading": "Why Choose BDC Capital",
+    "sectionText": "A lending approach built around clarity, \n responsibility, and trust.",
+    "whyChooseCards": [
+      {
+        "title": "Case-Based Evaluation",
+        "description": "Each application is assessed individually, based on the applicant’s profile and requirements."
+      },
+      {
+        "title": "Transparent Process",
+        "description": "Clear communication at every stage, from application to assessment and next steps."
+      },
+      {
+        "title": "Focus on Underserved Segments",
+        "description": "Improving access to formal credit for individuals and businesses that may face limitations with traditional lenders."
+      },
+      {
+        "title": "Guided Support Throughout",
+        "description": "Our team assists applicants through the process, helping them understand requirements and next steps."
+      }
+    ]
+  },
+  "processSection": {
+    "sectionHeading": "Getting started is Simple",
+    "process": [
+      {
+        "step": 1,
+        "title": "Case-Based Evaluation",
+        "description": "Each application is assessed individually, based on the applicant’s profile and requirements."
+      },
+      {
+        "step": 2,
+        "title": "We review and connect with you",
+        "description": "Our team reviews your details and reaches out within 48 working hours."
+      },
+      {
+        "step": 3,
+        "title": "Documentation & next steps",
+        "description": "Required documents are collected, followed by assessment and guidance on the next steps."
+      }
+    ]
+  },
+  "emiCalculatorSection": {
+    "sectionHeading": "Calculate your EMI",
+    "sectionText": "Estimate your monthly EMI before you apply. Just enter the loan amount, interest rate, and tenure.",
+    "loanTypeLabel": "Loan Type",
+    "loanAmountLabel": "Loan Amount",
+    "interestRateLabel": "Interest Rate (p.a)",
+    "tenureLabel": "Tenure (years)",
+    "monthlyEmiLabel": "Your Monthly EMI*",
+    "principalAmountLabel": "Principal Amount",
+    "interestAmountLabel": "Interest Amount",
+    "applyNow": "Apply Now"
+  },
+  "conclusionSection": {
+    "sectionHeading": "Where We Come From",
+    "sectionText": "BDC Capital Private Limited, formerly Pyar Finance Private Limited, was founded to make formal credit simple and accessible. Today, as a responsible NBFC, we offer customer-focused loan solutions built on transparency, fair practices, and long-term trust.",
+    "ctaContent": "Know More",
+    "ctaHref": "/about-us"
+  },
+  "footerContent": {
+    "heading": "Get started",
+    "description": "Share basic details and our team will guide you through the next steps.",
+    "ctaContent": "Apply Now"
+  }
+}

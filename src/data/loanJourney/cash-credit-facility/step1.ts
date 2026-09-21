@@ -1,0 +1,93 @@
+import { Step } from "@/types/loanJourney";
+
+export const step1: Step = {
+  title: "Applicant & business details",
+  form: [
+    {
+      inputLabel: "Full Name",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your full name",
+      id: "fullName",
+      name: "fullName",
+    },
+    {
+      inputLabel: "Mobile Number",
+      inputType: "number",
+      required: true,
+      inputPlaceholder: "Enter 10 digit mobile number",
+      id: "phoneNumber",
+      name: "phoneNumber",
+    },
+    {
+      inputLabel: "Email ID",
+      inputType: "email",
+      required: true,
+      inputPlaceholder: "Enter your email",
+      id: "email",
+      name: "email",
+    },
+    {
+      inputLabel: "Authorised Signatory Role",
+      inputType: "select",
+      required: true,
+      id: "applicantRole",
+      name: "applicantRole",
+      inputError: "Please select authorised signatory role",
+      options: [
+        { value: "business-owner", label: "Business Owner" },
+        { value: "partner", label: "Partner" },
+        { value: "director", label: "Director" },
+        { value: "authorised-representative", label: "Authorised Representative" },
+      ],
+    },
+    {
+      inputLabel: "Business Name",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your business name",
+      id: "businessName",
+      name: "businessName",
+    },
+    {
+      inputLabel: "Business Type",
+      inputType: "select",
+      required: true,
+      id: "businessType",
+      name: "businessType",
+      inputError: "Please select business type",
+      options: [
+        { value: "proprietorship", label: "Proprietorship" },
+        { value: "partnership", label: "Partnership" },
+        { value: "llp", label: "LLP" },
+        { value: "private-limited", label: "Private Limited" },
+        { value: "other", label: "Other" }
+      ],
+    },
+    {
+      inputLabel: "PAN of Entity",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your valid PAN number",
+      id: "panOfEntity",
+      name: "panOfEntity",
+      tooltip: "The PAN number of the business or company.",
+    },
+    {
+      inputLabel: "Business Address",
+      inputType: "text",
+      required: true,
+      inputPlaceholder: "Enter your business address",
+      id: "businessAddress",
+      name: "businessAddress",
+    },
+    {
+      inputLabel: "PIN Code",
+      inputType: "number",
+      required: true,
+      inputPlaceholder: "Enter PIN Code",
+      id: "pincode",
+      name: "pincode",
+    },
+  ],
+};

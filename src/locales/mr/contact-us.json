@@ -1,0 +1,43 @@
+{
+  "heading": "BDC Capital सोबती संपर्कात राहा",
+  "text": "कर्जासंबंधी चौकशी, अर्जासाठी मदत आणि इतर माहितीसाठी आम्ही तुम्हाला मदत करण्याकरिता सदैव उपलब्ध",
+  "addressContainer": {
+    "title": "नोंदणीकृत कार्यालय",
+    "address": "BDC Capital Private Limited \n १६०२, सिग्नेचर बाय लोटस, वीरा देसाई इंडस्ट्रियल इस्टेट, \n अंधेरी वेस्ट, मुंबई, \n महाराष्ट्र - ४०००५३"
+  },
+  "emailContainer": {
+    "title": "ईमेल",
+    "email": "siddhesh@bombaydc.com"
+  },
+  "contactContainer": {
+    "title": "संपर्क",
+    "contact": "+९१ ९८१९९ ८१३५४"
+  },
+  "form": {
+    "nameField": {
+      "label": "पूर्ण नाव",
+      "placeholder": "तुमचा मोबाईल क्रमांक",
+      "error": "नाव किमान २ अक्षरांचे असावे."
+    },
+    "phoneNumberField": {
+      "label": "मोबाइल क्रमांक",
+      "placeholder": "तुमचा मोबाईल क्रमांक",
+      "error": "कृपया वैध १० अंकी मोबाईल क्रमांक प्रविष्ट करा."
+    },
+    "emailField": {
+      "label": "ईमेल आयडी",
+      "placeholder": "तुमचा ई-मेल आयडी",
+      "error": "कृपया वैध ई-मेल आयडी प्रविष्ट करा."
+    },
+    "selectLoanTypeField": {
+      "label": "कर्जाचा प्रकार",
+      "placeholder": "",
+      "error": "कृपया कर्जाचा प्रकार निवडा."
+    },
+    "msgField": {
+      "label": "संदेश",
+      "placeholder": "तुमचा संदेश येथे लिहा..."
+    },
+    "submit": "चौकशी सादर करा"
+  }
+}

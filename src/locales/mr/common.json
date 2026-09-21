@@ -1,0 +1,109 @@
+{
+  "header": {
+    "home": "मुख्यपृष्ठ",
+    "loans": "कर्ज सुविधा",
+    "about": "आमच्याबद्दल",
+    "contact": "संपर्क",
+    "applyNow": "आत्ता अर्ज करा",
+    "loans_dropdown": [
+      {
+        "loanTitle": "वैयक्तिक कर्ज",
+        "loanDescription": "जबाबदारीने मूल्यांकन केलेले अनुकूल वैयक्तिक कर्ज."
+      },
+      {
+        "loanTitle": "व्यावसायिक कर्ज",
+        "loanDescription": "व्यवसायाच्या गरजेनुसार तयार केलेले कर्ज पर्याय."
+      },
+      {
+        "loanTitle": "गृह कर्ज",
+        "loanDescription": "निवासी मालमत्तेच्या गरजांसाठी आर्थिक सहाय्य"
+      },
+      {
+        "loanTitle": "वाहन कर्ज",
+        "loanDescription": "नवीन किंवा वापरलेल्या वाहनांसाठी आर्थिक सहाय्य."
+      },
+      {
+        "loanTitle": "मालमत्तेवर कर्ज",
+        "loanDescription": "मालकीच्या मालमत्ता तारण ठेवून सुरक्षित कर्ज "
+      },
+      {
+        "loanTitle": "कॅश क्रेडिट सुविधा",
+        "loanDescription": "व्यवसायांसाठी सतत खेळत्या भांडवलाचा आधार."
+      }
+    ],
+    "english": "इंग्रजी",
+    "marathi": "मराठी"
+  },
+  "footer": {
+    "bombaydc": "BDC Capital Private Limited \n","address": "१६०२, सिग्नेचर बाय लोटस, वीरा देसाई इंडस्ट्रियल \n इस्टेट, अंधेरी वेस्ट, मुंबई, \n महाराष्ट्र – ४०००५३, भारत",
+    "cinNumber": "CIN: U65921MH2024PTC123456",
+    "nbfcRegsistration": "NBFC नोंदणी क्रमांक B-13.02381 दिनांक २३ जानेवारी, २०२०",
+    "quickLocation": {
+      "title": "जलद लिंक्स",
+      "links": {
+        "home": "मुख्यपृष्ठ",
+        "aboutUs": "आमच्याबद्दल",
+        "contactUs": "संपर्क"
+      }
+    },
+    "loanSolutions": {
+      "title": "कर्ज सुविधा",
+      "links": {
+        "personalLoan": "वैयक्तिक कर्ज",
+        "businessLoan": "व्यावसायिक कर्ज",
+        "housingLoan": "गृह कर्ज",
+        "vehicleLoan": "वाहन कर्ज",
+        "loanAgainstProperty": "मालमत्तेवर कर्ज",
+        "cashCreditFacility": "कॅश क्रेडिट सुविधा"
+      }
+    },
+    "supportLegal": {
+      "title": "सहाय्य आणि कायदेशीर",
+      "links": {
+        "requestCallBack": "कॉल बॅकची विनंती करा",
+        "privacyPolicy": "गोपनीयता धोरण",
+        "termsConditions": "अटी आणि नियम",
+        "sitemap": "साईट मॅप"
+      }
+    },
+    "copyRight": "BDC Capital Private Limited. सर्व हक्क राखीव."
+  },
+  "popup": {
+    "requestCallback": "कॉल बॅकची विनंती करा",
+    "fullName": "पूर्ण नाव",
+    "mobileNumber": "मोबाईल नंबर",
+    "loanType": "कर्जाचा प्रकार",
+    "pinCode": "पिन कोड",
+    "city": "शहर",
+    "preferredCallTime": "पसंतीची वेळ",
+    "select": "निवडा",
+    "submit": "सबमिट करा",
+    "submitting": "सबमिट करत आहे...",
+    "requestSubmitted": "विनंती सबमिट केली",
+    "placeholders": {
+      "fullName": "तुमचे पूर्ण नाव प्रविष्ट करा",
+      "mobileNumber": "मोबाईल नंबर",
+      "pinCode": "पिन कोड प्रविष्ट करा",
+      "city": "शहर"
+    },
+    "errors": {
+      "nameMin": "नाव किमान २ अक्षरांचे असणे आवश्यक आहे",
+      "mobileInvalid": "अवैध मोबाईल नंबर",
+      "selectLoan": "कृपया कर्जाचा प्रकार निवडा",
+      "pinCodeInvalid": "अवैध पिन कोड",
+      "cityRequired": "शहर आवश्यक आहे",
+      "selectTime": "कृपया पसंतीची वेळ निवडा"
+    },
+    "options": {
+      "personalLoan": "वैयक्तिक कर्ज",
+      "businessLoan": "व्यावसायिक कर्ज",
+      "housingLoan": "गृह कर्ज",
+      "vehicleLoan": "वाहन कर्ज",
+      "loanAgainstProperty": "मालमत्तेवर कर्ज",
+      "cashCreditFacility": "कॅश क्रेडिट सुविधा",
+      "morning": "सकाळ (सकाळी १० - दुपारी १२)",
+      "afternoon": "दुपार (दुपारी १२ - दुपारी ४)",
+      "evening": "संध्याकाळ (दुपारी ४ - संध्याकाळी ७)"
+    }
+  }
+}

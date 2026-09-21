@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+  <g transform="translate(6, 8)">
+    <rect x="2" y="2" width="56" height="56" rx="14" fill="none" stroke="#005A45" stroke-width="2.5"/>
+    <path d="M 18 45 L 18 19 C 18 19 28 19 35 19 C 41 19 45 22 45 27 C 45 31 41 33 36 34 C 42 35 46 38 46 43 C 46 48 41 51 34 51 L 18 51 Z" fill="none" stroke="#005A45" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 14 43 C 22 43 28 34 34 34 C 40 34 44 22 48 17" fill="none" stroke="#2A9D8F" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="48" cy="17" r="2.5" fill="#2A9D8F"/>
+
+    <text x="72" y="38" font-family="'Figtree', 'Inter', system-ui, sans-serif" font-weight="700" font-size="24" letter-spacing="0.8px" fill="#005A45">BDC CAPITAL</text>
+    <text x="73" y="52" font-family="'Figtree', 'Inter', system-ui, sans-serif" font-weight="600" font-size="9" letter-spacing="2.5px" fill="#707070">NBFC • FINANCIAL SERVICES</text>
+  </g>
+</svg>

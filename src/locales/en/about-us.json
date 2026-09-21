@@ -1,0 +1,123 @@
+{
+  "heroSection": {
+    "heading": "Making credit easier \n to access",
+    "ctaCardText": "BDC Capital Private Limited is a registered NBFC focused on helping individuals and businesses access formal credit through a transparent and responsible process."
+  },
+  "aboutUsSection": {
+    "sectionHeading": "Who We Are",
+    "sectionText": "We help individuals and businesses access formal credit through a transparent and responsible lending approach. Formerly known as Pyar Finance Private Limited, BDC Capital Private Limited brings years of experience built on trust and long-term relationships.",
+    "vision": {
+      "title": "Our Vision",
+      "description": "Our vision is to become a middle-layer NBFC by expanding geographically, increasing our customer base, and offering a wider range of financial services over time."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to enable access, availability, and affordability to the formal credit market for underserved sections of society, small business entities, and corporates."
+    }
+  },
+  "ourValuesSection": {
+    "sectionHeading": "Principles We Follow",
+    "sectionText": "Our approach to lending is shaped by a set of core values that inform how we assess applications, engage with customers, and operate as a financial institution.",
+    "valuesData": [
+      {
+        "title": "Integrity",
+        "description": "Conducting business with honesty, fairness, and accountability."
+      },
+      {
+        "title": "Customer responsibility",
+        "description": "Making lending decisions with long-term customer well-being in mind."
+      },
+      {
+        "title": "Clarity",
+        "description": "Communicating information in a clear and understandable manner."
+      },
+      {
+        "title": "Financial inclusion",
+        "description": "Supporting access to formal credit for underserved segments."
+      },
+      {
+        "title": "Regulatory discipline",
+        "description": "Operating in line with applicable laws and regulatory expectations."
+      },
+      {
+        "title": "Accountability",
+        "description": "Taking ownership of decisions, processes, and customer outcomes."
+      }
+    ]
+  },
+  "ourApproachSection": {
+    "sectionHeading": "Our Approach",
+    "sectionText": "Our lending approach focuses on understanding each application before determining suitable outcomes.",
+    "ourApproachCards": [
+      {
+        "title": "Reviewing each application individually"
+      },
+      {
+        "title": "Understanding applicant profiles and requirements"
+      },
+      {
+        "title": "Applying structured internal assessment frameworks"
+      },
+      {
+        "title": "Providing guidance throughout the evaluation process"
+      },
+      {
+        "title": "Maintaining consistency and transparency in decisions"
+      }
+    ]
+  },
+  "commitmentSection": {
+    "sectionHeading": "Commitment To Compliance",
+    "sectionText": "We follow applicable regulatory guidelines and have adopted a Fair Practice Code to ensure ethical conduct and transparency across our operations.",
+    "commitmentPoints": [
+      {
+        "title": "Adherence to applicable regulatory and RBI guidelines"
+      },
+      {
+        "title": "Adoption of a fair practice code."
+      },
+      {
+        "title": "Transparent communication throughout the lending process"
+      },
+      {
+        "title": "Protection of customer information and data privacy"
+      },
+      {
+        "title": "Defined grievance redressal and disclosure mechanisms"
+      }
+    ]
+  },
+  "boardOfDirectorsSection": {
+    "sectionHeading": "Board of Directors",
+    "readMore": "Read More",
+    "directorsCards": [
+      {
+        "name": "Ankur Rander",
+        "position": "Director",
+        "description": "At the core, I like creating things that go back into the world and become part of someone's everyday experience - something useful & beautiful. I care deeply about making systems simpler, clearer, and more effective than the ones we've learned to tolerate.\n\nThe next generation of digital products will be intelligent, behavior-aware, and designed to improve business outcomes while making life easier for people.\n\nMy perspective has been shaped by working across India, Stockholm, and Tokyo - experiences that sharpened my thinking on strategy, standards, and what people expect from the products they use every day.\n\nAt BOMBAYDC, we help organisations solve product problems and build digital platforms for the AI era.\n\nAt BRANDED, we help shape the brands behind them."
+      },
+      {
+        "name": "Siddhesh Pednekar",
+        "position": "Director",
+        "description": "Siddhesh Pednekar is a Director at BDC Capital with extensive leadership experience across business strategy, corporate governance, and operational management. He plays a key role in guiding strategic growth, ensuring regulatory compliance, and driving long-term value creation for the company."
+      }
+    ]
+  },
+  "buildingTheFutureSection": {
+    "sectionHeading": "Building for the Future",
+    "futureList": [
+      {
+        "title": "Responsible Lending",
+        "heading": "We evaluate applications carefully to encourage responsible borrowing and sustainable financial outcomes."
+      },
+      {
+        "title": "Social Inclusion",
+        "heading": "We work to improve access to formal credit for underserved individuals and businesses."
+      },
+      {
+        "title": "Governance & Ethics",
+        "heading": "We follow defined governance practices, regulatory guidelines, and transparent communication across our operations."
+      }
+    ]
+  }
+}

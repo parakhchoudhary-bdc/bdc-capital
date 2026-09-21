@@ -1,0 +1,128 @@
+import { Step } from "@/types/loanJourney";
+
+export const step3: Step = {
+  title: "Property & loan details",
+  component: "property-loan",
+  form: [
+    {
+      id: "purposeHousingLoan",
+      inputLabel: "Purpose of Housing Loan",
+      inputPlaceholder: "Select purpose of housing loan",
+      inputType: "select",
+      required: true,
+      options: [
+        { value: "purchase", label: "Purchase of new house" },
+        { value: "resale", label: "Purchase of resale house" },
+        { value: "construction", label: "Construction of house" },
+        { value: "plotPurchase", label: "Plot purchase (if applicable)" },
+        { value: "other", label: "Other" },
+      ],
+    },
+    {
+      id: "purposeHousingLoanOther",
+      inputLabel: "Mention Loan Purpose (if Others)",
+      inputPlaceholder: "Enter loan purpose",
+      inputType: "text",
+      required: true,
+      visibilityRule: {
+        dependsOn: "purposeHousingLoan",
+        showWhenValueIs: "other",
+      },
+    },
+    {
+      id: "approximateLoanAmout",
+      inputLabel: "Approximate Loan Amount",
+      inputPlaceholder: "Select approximate loan amount",
+      inputType: "select",
+      required: true,
+      options: [
+        { value: "up-to-15-lakhs", label: "Up to ₹15 Lakhs" },
+        { value: "15-lakhs-to-25-lakhs", label: "₹15 Lakhs to ₹25 Lakhs" },
+        { value: "25-lakhs-to-1-crore", label: "₹25 Lakhs to ₹1 Crore" },
+        { value: "1-crore-to-5-crore", label: "₹1 Crore to ₹5 Crore" },
+        { value: "5-crore-to-10-crore", label: "₹5 Crore to ₹10 Crore" },
+      ],
+      helperText: "Final eligibility is determined after assessment.",
+    },
+    {
+      id: "preferredLoanTenure",
+      inputLabel: "Preferred Loan Tenure (in years)",
+      inputPlaceholder: "Select loan tenure",
+      inputType: "number",
+      required: true,
+      min: 10,
+      max: 25,
+    },
+    {
+      id: "propertyType",
+      inputLabel: "Property Type",
+      inputPlaceholder: "Select property type",
+      inputType: "select",
+      required: true,
+      options: [
+        { value: "apartment", label: "Apartment / Flat" },
+        { value: "house", label: "Independent House" },
+        { value: "plot", label: "Plot" },
+        { value: "commercial", label: "Commercial Property" },
+        { value: "other", label: "Other" },
+      ],
+    },
+    {
+      id: "propertyTypeOther",
+      inputLabel: "Mention Property Type (if Others)",
+      inputPlaceholder: "Enter property type",
+      inputType: "text",
+      required: true,
+      visibilityRule: {
+        dependsOn: "propertyType",
+        showWhenValueIs: "other",
+      },
+    },
+    {
+      id: "propertyStatus",
+      inputLabel: "Property Status",
+      inputPlaceholder: "Choose property status",
+      inputType: "radio",
+      options: [
+        { value: "ready", label: "Ready" },
+        { value: "under-construction", label: "Under Construction" },
+      ],
+    },
+    {
+      id: "propertyAddress",
+      inputLabel: "Property Address",
+      inputPlaceholder: "Enter property address",
+      inputType: "text",
+      required: true,
+    },
+    {
+      id: "propertyAddressPincode",
+      inputLabel: "Property Address Pincode",
+      inputPlaceholder: "Enter property address pincode",
+      inputType: "number",
+      required: true,
+    },
+    {
+      id: "existingLoans",
+      inputLabel: "Existing Loans",
+      inputPlaceholder: "Do you have any existing loans?",
+      inputType: "radio",
+      options: [
+        { value: "yes", label: "Yes" },
+        { value: "no", label: "No" },
+      ],
+      required: true,
+    },
+    {
+      id: "totalOutstandingAmount",
+      inputLabel: "Total Outstanding Amount",
+      inputPlaceholder: "Enter total outstanding amount",
+      inputType: "currency",
+      required: true,
+      visibilityRule: {
+        dependsOn: "existingLoans",
+        showWhenValueIs: "yes",
+      },
+    },
+  ],
+};

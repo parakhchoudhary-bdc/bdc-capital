@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+  <!-- Option 2: Architectural Shield & Growth Arrow Outline -->
+  <g transform="translate(6, 8)">
+    <!-- Icon Mark: Outlined Shield Crest -->
+    <path d="M 30 6 C 44 6 52 14 52 26 C 52 42 30 54 30 54 C 30 54 8 42 8 26 C 8 14 16 6 30 6 Z" fill="none" stroke="#005A45" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Interlocking B & Upward Financial Growth Line -->
+    <path d="M 22 20 L 32 20 C 37 20 40 23 40 26 C 40 29 37 31 32 31 L 22 31 L 22 42 L 35 42 C 40 42 43 39 43 36" fill="none" stroke="#005A45" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 17 38 L 30 25 L 43 12" fill="none" stroke="#2A9D8F" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="43,12 37,13 42,18" fill="#2A9D8F"/>
+
+    <!-- Typography -->
+    <text x="72" y="38" font-family="'Figtree', 'Inter', system-ui, sans-serif" font-weight="800" font-size="24" letter-spacing="1px" fill="#005A45">BDC CAPITAL</text>
+    <text x="73" y="52" font-family="'Figtree', 'Inter', system-ui, sans-serif" font-weight="600" font-size="9" letter-spacing="2.5px" fill="#707070">RESPONSIBLE NBFC CREDIT</text>
+  </g>
+</svg>

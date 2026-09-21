@@ -1,0 +1,33 @@
+{
+  "name": "bdc-capital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@gsap/react": "^2.1.2",
+    "@hookform/resolvers": "^5.2.2",
+    "@tailwindcss/postcss": "^4",
+    "@tanstack/react-query": "^5.90.20",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.10",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "gsap": "^3.14.2",
+    "lenis": "^1.3.17",
+    "nodemailer": "^8.0.1",
+    "react-hook-form": "^7.71.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "zod": "^4.3.6"
+  }
+}

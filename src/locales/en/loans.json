@@ -1,0 +1,1046 @@
+{
+  "loansData": [
+    {
+      "id": "personal-loan",
+      "pathname": "personal-loan",
+      "title": "Personal Loan",
+      "bannerImg": "/images/loans/personal-loan.webp",
+      "bannerTitle": "Support every milestone with a personal loan",
+      "bannerCardText": "Access formal credit for your personal financial needs through a transparent, case-by-case assessment process.",
+      "bannerCta1": "Apply Now",
+      "bannerHref1": "/apply/personal-loan",
+      "bannerCta2": "Get a Call Back",
+      "bannerHref2": "/contact-us",
+      "aboutHeading": "About the Personal Loan",
+      "aboutDescription": "We help individuals meet their financial requirements through access to formal credit. The loan is evaluated based on the applicant’s profile, ensuring a fair assessment process. This offering is particularly suited for individuals who may face challenges accessing credit through traditional banking channels.",
+      "benefitsHeading": "Benefits of Personal Loan",
+      "benefits": [
+        {
+          "icon": "/icons/checklist.svg",
+          "benefitText": "Case-based evaluation of every application"
+        },
+        {
+          "icon": "/icons/deblur.svg",
+          "benefitText": "Transparent and guided loan process"
+        },
+        {
+          "icon": "/icons/filter_center_focus.svg",
+          "benefitText": "Focus on accessibility to formal credit"
+        },
+        {
+          "icon": "/icons/automation.svg",
+          "benefitText": "Separate application flow for personal loans"
+        },
+        {
+          "icon": "/icons/hourglass_empty.svg",
+          "benefitText": "Loan terms are determined after assessment of applicant details and documents."
+        },
+        {
+          "icon": "/icons/currency_rupee_circle.svg",
+          "benefitText": "Applicable fees are communicated during the evaluation process."
+        }
+      ],
+      "eligibilityHeading": "Eligibility & Assessment",
+      "eligibilitySectionText": "Personal Loan eligibility is assessed on a case-to-case basis, based on the applicant’s profile, income stability, documentation, and internal evaluation criteria.",
+      "eligibility": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "title": "Eligible Applicants",
+          "description": "Salaried, Self-employed, Professionals"
+        },
+        {
+          "icon": "/icons/calendar_month.svg",
+          "title": "Age",
+          "description": "21 years and above"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "title": "Loan Amount",
+          "description": "Up to ₹40 Lakhs"
+        }
+      ],
+      "eligibilityConclusion": "Final loan terms and approval are subject to internal assessment and verification.",
+      "whoCanApplyHeading": "Who Can Apply",
+      "whoCanApply": [
+        {
+          "img": "/images/loans/personal-salaried.webp",
+          "title": "Salaried individuals"
+        },
+        {
+          "img": "/images/loans/personal-self-employed.webp",
+          "title": "Self-employed individuals"
+        },
+        {
+          "img": "/images/loans/personal-group-entities.webp",
+          "title": "Employees of group entities"
+        },
+        {
+          "img": "/images/loans/personal-individuals.webp",
+          "title": "Individuals seeking personal financial support"
+        }
+      ],
+      "processHeading": "A simple 3-step process",
+      "process": [
+        {
+          "step": 1,
+          "title": "Submit basic details",
+          "description": "Fill in the application form and select Personal Loan as the loan type."
+        },
+        {
+          "step": 2,
+          "title": "Review and assessment",
+          "description": "Our team reviews the submitted information and documents for preliminary assessment."
+        },
+        {
+          "step": 3,
+          "title": "Further communication",
+          "description": "A loan officer will contact you within 48 working hours to guide you on the next steps. Loan approval is subject to verification and internal policies."
+        }
+      ],
+      "kycHeading": "KYC Documents",
+      "kyc": [
+        {
+          "title": "Proof of Identity",
+          "kycItems": [
+            {
+              "point": "PAN (Mandatory)"
+            },
+            {
+              "point": "Aadhaar / Voter ID / Bank Passbook (Additional)"
+            }
+          ]
+        },
+        {
+          "title": "Proof of Address",
+          "kycItems": [
+            {
+              "point": "Aadhaar (Mandatory)"
+            },
+            {
+              "point": "Bank Passbook / Passport / Driving License / Utility Bill (Additional)"
+            }
+          ]
+        },
+        {
+          "title": "Other Documents",
+          "kycItems": [
+            {
+              "point": "Last 3 years’ ITR copies"
+            },
+            {
+              "point": "Bank statements for the last 1 year"
+            },
+            {
+              "point": "Last 6 months’ salary slips (if applicable)"
+            },
+            {
+              "point": "Blank cancelled cheque"
+            },
+            {
+              "point": "Two passport-size photographs"
+            }
+          ]
+        }
+      ],
+      "conclusionImg": "/images/loans/personal-loan-conclusion.webp",
+      "conclusionHeading": "Exclusive offers just for you",
+      "conclusionText": "Your loan's terms are determined on a case-to-case basis, considering several factors. To discuss your loan's details before applying, contact us today.",
+      "conclusionCtaContent": "Apply Now",
+      "conclusionCtaHref": "/apply/personal-loan",
+      "footerHeading": "Apply for Personal Loan",
+      "footerText": "Share your basic details to begin the process. Our team will review your request and connect with you for further guidance.",
+      "footerCtaContent": "Apply Now",
+      "footerCtaHref": "/apply/personal-loan",
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "question": "Who can apply for a Personal Loan?",
+          "answer": "Salaried individuals, self-employed individuals, and professionals can apply. All applications are assessed on a case-to-case basis."
+        },
+        {
+          "question": "How is eligibility determined?",
+          "answer": "Eligibility depends on factors such as applicant profile, income stability, documentation, and internal assessment criteria."
+        },
+        {
+          "question": "Is there a fixed interest rate for personal loans?",
+          "answer": "Interest rates are determined after assessment and may vary based on the applicant’s profile and internal policies."
+        },
+        {
+          "question": "How long does the approval process take?",
+          "answer": "After submitting basic details, a loan officer contacts the applicant within 48 working hours. Final timelines depend on verification and documentation."
+        },
+        {
+          "question": "What documents are required to apply?",
+          "answer": "Basic KYC and financial documents are required. Additional documents may be requested based on the assessment."
+        },
+        {
+          "question": "Does meeting eligibility criteria guarantee loan approval?",
+          "answer": "No, meeting basic eligibility criteria does not guarantee loan approval. All applications are subject to verification and internal policies."
+        },
+        {
+          "question": "How will I know my loan terms?",
+          "answer": "Loan amount, interest rate, tenure, and applicable fees are communicated after assessment of the applicant’s details and documents."
+        }
+      ]
+    },
+    {
+      "id": "business-loan",
+      "pathname": "business-loan",
+      "title": "Business Loan",
+      "bannerImg": "/images/loans/business-loan.webp",
+      "bannerTitle": "Business loans for growth and working needs",
+      "bannerCardText": "BDC Capital Private Limited offers business loans to support operational, expansion, and working capital requirements through a structured and responsible assessment process.",
+      "bannerCta1": "Apply Now",
+      "bannerHref1": "/apply/business-loan",
+      "bannerCta2": "Get a Call Back",
+      "bannerHref2": "/contact-us",
+      "aboutHeading": "About the Business Loan",
+      "aboutDescription": "BDC Capital Private Limited provides business loans to support enterprises at various stages of growth. Each application is individually assessed based on business profile, financial performance, and funding purpose, ensuring transparent and responsible access to formal credit.",
+      "benefitsHeading": "Benefits of Business Loan",
+      "benefits": [
+        {
+          "icon": "/icons/checklist.svg",
+          "benefitText": "Structured evaluation aligned with business cash flows"
+        },
+        {
+          "icon": "/icons/verified_user.svg",
+          "benefitText": "Support for both secured and unsecured business loans"
+        },
+        {
+          "icon": "/icons/business_messages.svg",
+          "benefitText": "Transparent communication throughout the process"
+        },
+        {
+          "icon": "/icons/brightness.svg",
+          "benefitText": "Business-focused, case-based assessment"
+        },
+        {
+          "icon": "/icons/border_inner.svg",
+          "benefitText": "Flexible structuring based on business requirements and profile"
+        },
+        {
+          "icon": "/icons/percent.svg",
+          "benefitText": "Loan amount, tenure, interest rate, and applicable charges are determined after assessment"
+        }
+      ],
+      "eligibilityHeading": "Eligibility & Assessment",
+      "eligibilitySectionText": "Business loan eligibility is evaluated based on multiple factors, including business activity, financial performance, documentation, and internal assessment criteria.",
+      "eligibility": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "title": "Eligible Applicants",
+          "description": "Proprietorship, Limited Liability Partnership, Company"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "title": "Loan Amount",
+          "description": "Up to ₹5 Crore"
+        }
+      ],
+      "eligibilityConclusion": "Final loan terms and approval are subject to internal assessment and verification.",
+      "whoCanApplyHeading": "Who Can Apply",
+      "whoCanApply": [
+        {
+          "img": "/images/loans/business-llp.webp",
+          "title": "Proprietorships, Partnerships and LLPs"
+        },
+        {
+          "img": "/images/loans/business-pvt-ltd.webp",
+          "title": "Private Limited Companies"
+        },
+        {
+          "img": "/images/loans/business-msme.webp",
+          "title": "MSMEs and small businesses"
+        },
+        {
+          "img": "/images/loans/business-self-employed.webp",
+          "title": "Self-employed professionals"
+        }
+      ],
+      "processHeading": "A simple 3-step process",
+      "process": [
+        {
+          "step": 1,
+          "title": "Submit basic details",
+          "description": "Complete the application by selecting Business Loan and sharing basic information."
+        },
+        {
+          "step": 2,
+          "title": "Review and assessment",
+          "description": "Our team reviews the details and connects with you to understand your business requirements."
+        },
+        {
+          "step": 3,
+          "title": "Verification & next steps",
+          "description": "Documentation and verification are completed based on the loan structure. Final approval is subject to assessment and internal policies."
+        }
+      ],
+      "kycHeading": "KYC Documents",
+      "kyc": [
+        {
+          "title": "Identity & Authorisation Documents",
+          "kycItems": [
+            {
+              "point": "PAN (Mandatory)"
+            },
+            {
+              "point": "Aadhaar / Voter ID / Bank Passbook (Additional)"
+            },
+            {
+              "point": "Authorisation documents such as Board Resolution or Power of Attorney (where applicable)"
+            }
+          ]
+        },
+        {
+          "title": "Business Registration Documents",
+          "kycItems": [
+            {
+              "point": "Certificate of Incorporation / Registration"
+            },
+            {
+              "point": "Shop Act License / Udyam Registration / Other applicable business proof"
+            },
+            {
+              "point": "GST Registration Certificate (if applicable)"
+            }
+          ]
+        },
+        {
+          "title": "Financial documents",
+          "kycItems": [
+            {
+              "point": "Income Tax Returns (last 3 years)"
+            },
+            {
+              "point": "Financial Statements (Balance Sheet & Profit & Loss Account)"
+            },
+            {
+              "point": "Bank Statements (last 12 months)"
+            },
+            {
+              "point": "Blank cancelled cheque"
+            }
+          ]
+        }
+      ],
+      "conclusionImg": "/images/loans/business-loan-conclusion.webp",
+      "conclusionHeading": "Exclusive support for your business",
+      "conclusionText": "Business loan terms are structured on a case-to-case basis. If you would like to understand available options before applying, our team is available to guide you through the process.",
+      "conclusionCtaContent": "Apply Now",
+      "conclusionCtaHref": "/apply/business-loan",
+      "footerHeading": "Apply for a Business Loan",
+      "footerText": "Share your business details to begin the application. Our team will review your request and guide you through the next steps.",
+      "footerCtaContent": "Apply Now",
+      "footerCtaHref": "/apply/business-loan",
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "question": "Is this loan suitable for working capital needs?",
+          "answer": "Yes, business loans may be structured to support working capital or operational requirements, subject to assessment."
+        },
+        {
+          "question": "Are both secured and unsecured business loans available?",
+          "answer": "Yes, the availability of secured or unsecured facilities depends on the business profile and assessment."
+        },
+        {
+          "question": "Are interest rates fixed?",
+          "answer": "Interest rates are determined after evaluation and may vary based on business risk and loan structure."
+        },
+        {
+          "question": "How long does the process take?",
+          "answer": "A loan officer contacts the applicant within 48 working hours after submission. Timelines depend on documentation and verification."
+        },
+        {
+          "question": "Does submitting an application guarantee approval?",
+          "answer": "No, all applications are subject to internal assessment and verification."
+        },
+        {
+          "question": "What documents are required to apply for a business loan?",
+          "answer": "Basic identity, business, and financial documents are required. The exact list depends on the business profile and loan structure and will be communicated during verification."
+        },
+        {
+          "question": "Can I speak to someone before applying?",
+          "answer": "Yes, you can request a call back and our team will connect with you to understand your requirements and guide you through the process."
+        }
+      ]
+    },
+    {
+      "id": "housing-loan",
+      "pathname": "housing-loan",
+      "title": "Housing Loan",
+      "bannerImg": "/images/loans/housing-loan.webp",
+      "bannerTitle": "Financial Support for Your Home Journey",
+      "bannerCardText": "From planning your first home to securing a place for your family, our housing loan offering supports your journey through a transparent and structured lending process.",
+      "bannerCta1": "Apply Now",
+      "bannerHref1": "/apply/housing-loan",
+      "bannerCta2": "Get a Call Back",
+      "bannerHref2": "/contact-us",
+      "aboutHeading": "About the Housing Loan",
+      "aboutDescription": "BDC Capital Private Limited provides housing loans to individuals for residential needs, with each application assessed fairly based on the applicant’s profile and supporting documents.",
+      "benefitsHeading": "Benefits of Housing Loan",
+      "benefits": [
+        {
+          "icon": "/icons/other_houses.svg",
+          "benefitText": "Access to formal credit for residential financing needs"
+        },
+        {
+          "icon": "/icons/checklist.svg",
+          "benefitText": "Case-based evaluation tailored to individual requirements"
+        },
+        {
+          "icon": "/icons/account_tree.svg",
+          "benefitText": "Structured and guided lending process"
+        },
+        {
+          "icon": "/icons/business_messages.svg",
+          "benefitText": "Transparent assessment and communication"
+        },
+        {
+          "icon": "/icons/real_estate_agent.svg",
+          "benefitText": "Longer repayment options supported by property-backed security"
+        },
+        {
+          "icon": "/icons/location_away.svg",
+          "benefitText": "Suitable for applicants facing challenges with traditional banking channels"
+        }
+      ],
+      "eligibilityHeading": "Eligibility & Assessment",
+      "eligibilitySectionText": "Housing loan eligibility is assessed on a case-to-case basis and depends on factors such as applicant profile, income or business stability, house details and documentation.",
+      "eligibility": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "title": "Eligible Applicants",
+          "description": "Individual - Salaried/Self-Employed/Professional"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "title": "Loan Amount",
+          "description": "Up to ₹5 Crore"
+        }
+      ],
+      "eligibilityConclusion": "Final loan terms and approval are subject to internal assessment and verification.",
+      "whoCanApplyHeading": "Who Can Apply",
+      "whoCanApply": [
+        {
+          "img": "/images/loans/housing-salaried.webp",
+          "title": "Salaried individuals"
+        },
+        {
+          "img": "/images/loans/housing-self-employed.webp",
+          "title": "Self-employed individuals and professionals"
+        },
+        {
+          "img": "/images/loans/housing-residential.webp",
+          "title": "Applicants purchasing residential property"
+        },
+        {
+          "img": "/images/loans/housing-individuals.webp",
+          "title": "Individuals seeking home purchase or construction financing"
+        }
+      ],
+      "processHeading": "A simple 3-step process",
+      "process": [
+        {
+          "step": 1,
+          "title": "Submit basic details",
+          "description": "Fill in the application form and select Housing Loan as the loan type. Share your basic contact information and preliminary details to initiate the process."
+        },
+        {
+          "step": 2,
+          "title": "Profile and property review",
+          "description": "Our team reviews the application and connects with you to understand housing and property requirements."
+        },
+        {
+          "step": 3,
+          "title": "Verification and next steps",
+          "description": "Property and document verification is completed, followed by further guidance. Loan approval is subject to assessment and internal policies."
+        }
+      ],
+      "kycHeading": "KYC Documents",
+      "kyc": [
+        {
+          "title": "Identity & address documents",
+          "kycItems": [
+            {
+              "point": "PAN (Mandatory)"
+            },
+            {
+              "point": "Aadhaar / Voter ID / Bank Passbook (Additional)"
+            }
+          ]
+        },
+        {
+          "title": "Income documents",
+          "kycItems": [
+            {
+              "point": "Income proof or financial statements"
+            },
+            {
+              "point": "Bank statements"
+            },
+            {
+              "point": "Blank cancelled cheque"
+            }
+          ]
+        },
+        {
+          "title": "Property-related documents",
+          "kycItems": [
+            {
+              "point": "Agreement to sale / allotment letter"
+            },
+            {
+              "point": "Approved building plans (if applicable)"
+            },
+            {
+              "point": "Property ownership and title documents"
+            }
+          ]
+        }
+      ],
+      "conclusionImg": "/images/loans/housing-loan-conclusion.webp",
+      "conclusionHeading": "Exclusive support for your dream home",
+      "conclusionText": "Your loan's terms are determined on a case-to-case basis, considering several factors. To discuss your loan's details before applying, contact us today.",
+      "conclusionCtaContent": "Apply Now",
+      "conclusionCtaHref": "/apply/housing-loan",
+      "footerHeading": "Apply for a Housing Loan",
+      "footerText": "Share your basic details to begin the process. Our team will review your request and connect with you for further guidance.",
+      "footerCtaContent": "Apply Now",
+      "footerCtaHref": "/apply/housing-loan",
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "question": "Who can apply for a housing loan?",
+          "answer": "Housing loans are available to salaried and self-employed individuals, subject to case-based assessment."
+        },
+        {
+          "question": "How is eligibility decided for a housing loan?",
+          "answer": "Eligibility is assessed on a case-to-case basis based on the applicant’s profile, documentation, and housing requirement."
+        },
+        {
+          "question": "Are there fixed loan amounts or interest rates?",
+          "answer": "No, loan amount, interest rate, tenure, and applicable charges are determined after internal assessment."
+        },
+        {
+          "question": "Is property documentation mandatory for a housing loan?",
+          "answer": "Yes, property-related documents are required where the loan is secured against immovable property."
+        },
+        {
+          "question": "What documents are required to apply?",
+          "answer": "Applicants are required to submit KYC documents, financial records, and property-related documents, as applicable."
+        },
+        {
+          "question": "How long does it take to hear back after applying?",
+          "answer": "A loan officer will contact you within 48 working hours after form submission."
+        },
+        {
+          "question": "Does applying for a housing loan guarantee approval?",
+          "answer": "No, loan approval is subject to verification and internal assessment policies."
+        },
+        {
+          "question": "Can additional documents be requested?",
+          "answer": "Yes, additional documents may be requested depending on the evaluation of the application."
+        }
+      ]
+    },
+    {
+      "id": "vehicle-loan",
+      "pathname": "vehicle-loan",
+      "title": "Vehicle Loan",
+      "bannerImg": "/images/loans/vehicle-loan.webp",
+      "bannerTitle": "Vehicle loans for personal and operational mobility",
+      "bannerCardText": "BDC Capital Private Limited offers vehicle loans to support the purchase of new or used vehicles, assessed responsibly based on applicant profile and vehicle details.",
+      "bannerCta1": "Apply Now",
+      "bannerHref1": "/apply/vehicle-loan",
+      "bannerCta2": "Get a Call Back",
+      "bannerHref2": "/contact-us",
+      "aboutHeading": "About the Vehicle Loan",
+      "aboutDescription": "Vehicle ownership supports personal mobility and business operations. BDC Capital Private Limited’s vehicle loans help finance new or used vehicles through formal credit, with each application individually assessed to ensure a transparent and responsible evaluation.",
+      "benefitsHeading": "Benefits of Vehicle Loan",
+      "benefits": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "benefitText": "Evaluation based on applicant profile and vehicle details"
+        },
+        {
+          "icon": "/icons/no_crash.svg",
+          "benefitText": "Financing support for both new and pre-owned vehicles"
+        },
+        {
+          "icon": "/icons/car_tag.svg",
+          "benefitText": "Assessment aligned with vehicle value and usage"
+        },
+        {
+          "icon": "/icons/car_gear.svg",
+          "benefitText": "Loan structuring considers vehicle condition, age, and intended use"
+        },
+        {
+          "icon": "/icons/account_tree.svg",
+          "benefitText": "Clear and guided application process"
+        },
+        {
+          "icon": "/icons/percent.svg",
+          "benefitText": "Loan amount, tenure, interest rate, and applicable charges are finalised after assessment"
+        }
+      ],
+      "eligibilityHeading": "Eligibility & Assessment",
+      "eligibilitySectionText": "Vehicle loan eligibility is assessed on a case-to-case basis and depends on factors such as applicant profile, income or business stability, vehicle details, and documentation.",
+      "eligibility": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "title": "Eligible Applicants",
+          "description": "Individual - Salaried/Self-Employed/Professional"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "title": "Loan Amount",
+          "description": "Up to ₹50 Lakhs"
+        }
+      ],
+      "eligibilityConclusion": "Final loan terms and approval are subject to internal assessment and verification.",
+      "whoCanApplyHeading": "Who Can Apply",
+      "whoCanApply": [
+        {
+          "img": "/images/loans/vehicle-salaried.webp",
+          "title": "Salaried individuals"
+        },
+        {
+          "img": "/images/loans/vehicle-self-employed.webp",
+          "title": "Self-employed individuals and professionals"
+        },
+        {
+          "img": "/images/loans/vehicle-business-msme.webp",
+          "title": "Businesses and MSMEs requiring vehicles for operations"
+        },
+        {
+          "img": "/images/loans/vehicle-purchasing.webp",
+          "title": "Applicants purchasing new or used vehicles"
+        }
+      ],
+      "processHeading": "A simple 3-step process",
+      "process": [
+        {
+          "step": 1,
+          "title": "Submit basic details",
+          "description": "Select Vehicle Loan and share your basic information."
+        },
+        {
+          "step": 2,
+          "title": "Review and assessment",
+          "description": "Our team reviews the details and connects with you to understand vehicle and loan requirements."
+        },
+        {
+          "step": 3,
+          "title": "Further communication",
+          "description": "Vehicle and document verification is completed, followed by further guidance. Loan approval is subject to assessment and internal policies."
+        }
+      ],
+      "kycHeading": "KYC Documents",
+      "kyc": [
+        {
+          "title": "Identity & address documents",
+          "kycItems": [
+            {
+              "point": "PAN (Mandatory)"
+            },
+            {
+              "point": "Aadhaar / Voter ID / Bank Passbook (Additional)"
+            }
+          ]
+        },
+        {
+          "title": "Financial documents",
+          "kycItems": [
+            {
+              "point": "Income proof or financial statements"
+            },
+            {
+              "point": "Bank statements"
+            },
+            {
+              "point": "Blank cancelled cheque"
+            }
+          ]
+        },
+        {
+          "title": "Vehicle-related documents",
+          "kycItems": [
+            {
+              "point": "Vehicle quotation or invoice"
+            },
+            {
+              "point": "Registration Certificate (for used vehicles)"
+            },
+            {
+              "point": "Insurance and vehicle-related records"
+            }
+          ]
+        }
+      ],
+      "conclusionImg": "/images/loans/vehicle-loan-conclusion.webp",
+      "conclusionHeading": "Support for your vehicle purchase",
+      "conclusionText": "Vehicle loan terms are structured based on the applicant and vehicle profile. If you require guidance before applying, our team is available to assist you with the next steps.",
+      "conclusionCtaContent": "Apply Now",
+      "conclusionCtaHref": "/apply/vehicle-loan",
+      "footerHeading": "Apply for a Vehicle Loan",
+      "footerText": "Share your basic details to begin the application. Our team will review your request and guide you through the next steps.",
+      "footerCtaContent": "Apply Now",
+      "footerCtaHref": "/apply/vehicle-loan",
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "question": "Are loans available for used vehicles?",
+          "answer": "Yes, vehicle loans may be considered for both new and used vehicles, subject to assessment."
+        },
+        {
+          "question": "How is eligibility evaluated?",
+          "answer": "Eligibility depends on applicant profile, vehicle details, repayment capacity, and internal assessment criteria."
+        },
+        {
+          "question": "Are interest rates fixed?",
+          "answer": "Interest rates are determined after evaluation and may vary based on the loan and vehicle profile."
+        },
+        {
+          "question": "How long does the process take?",
+          "answer": "A loan officer contacts the applicant within 48 working hours after submission. Timelines depend on verification."
+        },
+        {
+          "question": "Does submitting an application guarantee approval?",
+          "answer": "No, all applications are subject to internal assessment and verification."
+        }
+      ]
+    },
+    {
+      "id": "loan-against-property",
+      "pathname": "loan-against-property",
+      "title": "Loan Against Property",
+      "bannerImg": "/images/loans/loan-against-property.webp",
+      "bannerTitle": "Unlock funding by leveraging your property",
+      "bannerCardText": "BDC Capital Private Limited offers loans against property to help individuals and businesses access formal credit by offering owned property as security.",
+      "bannerCta1": "Apply Now",
+      "bannerHref1": "/apply/loan-against-property",
+      "bannerCta2": "Get a Call Back",
+      "bannerHref2": "/contact-us",
+      "aboutHeading": "About the Loan Against Property",
+      "aboutDescription": "A Loan Against Property helps applicants raise funds by using owned residential or commercial property as security. Each application is assessed considering property details, applicant profile, and repayment capacity.",
+      "benefitsHeading": "Benefits of Loan Against Property",
+      "benefits": [
+        {
+          "icon": "/icons/money_bag.svg",
+          "benefitText": "Access to higher-value funding backed by owned property"
+        },
+        {
+          "icon": "/icons/checklist.svg",
+          "benefitText": "Suitable for both personal and business financial needs"
+        },
+        {
+          "icon": "/icons/assignment_turned_in.svg",
+          "benefitText": "Evaluation based on property value and applicant profile"
+        },
+        {
+          "icon": "/icons/account_tree.svg",
+          "benefitText": "Structured and guided lending process"
+        },
+        {
+          "icon": "/icons/business_messages.svg",
+          "benefitText": "Transparent assessment and communication throughout"
+        },
+        {
+          "icon": "/icons/grading.svg",
+          "benefitText": "Loan terms are finalised after detailed assessment"
+        }
+      ],
+      "eligibilityHeading": "Eligibility & Assessment",
+      "eligibilitySectionText": "Loan Against Property eligibility is determined based on factors such as property type, ownership status, applicant profile, income stability, and documentation.",
+      "eligibility": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "title": "Eligible Applicants",
+          "description": "Individual - Salaried/Self-Employed/Professional, Company, Partnership Firm,LLP,HUF"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "title": "Loan Amount",
+          "description": "Up to ₹10 Crore"
+        }
+      ],
+      "eligibilityConclusion": "Final loan terms and approval are subject to internal assessment and verification.",
+      "whoCanApplyHeading": "Who Can Apply",
+      "whoCanApply": [
+        {
+          "img": "/images/loans/lap-salaried.webp",
+          "title": "Salaried individuals"
+        },
+        {
+          "img": "/images/loans/lap-self-employed.webp",
+          "title": "Self-employed individuals and professionals"
+        },
+        {
+          "img": "/images/loans/lap-business-msme.webp",
+          "title": "Businesses and MSMEs"
+        },
+        {
+          "img": "/images/loans/lap-property-owners.webp",
+          "title": "Property owners seeking funding for personal or business purposes"
+        }
+      ],
+      "processHeading": "A simple 3-step process",
+      "process": [
+        {
+          "step": 1,
+          "title": "Submit basic details",
+          "description": "Fill in the application form and select Housing Loan as the loan type. Share your basic contact information and preliminary details to initiate the process."
+        },
+        {
+          "step": 2,
+          "title": "Profile and property review",
+          "description": "Our team reviews your details and connects with you to understand property and funding requirements."
+        },
+        {
+          "step": 3,
+          "title": "Verification and next steps",
+          "description": "Property and document verification is completed, followed by further guidance. Loan approval is subject to assessment and internal policies."
+        }
+      ],
+      "kycHeading": "KYC Documents",
+      "kyc": [
+        {
+          "title": "Identity & address documents",
+          "kycItems": [
+            {
+              "point": "PAN (Mandatory)"
+            },
+            {
+              "point": "Aadhaar / Voter ID / Bank Passbook (Additional)"
+            }
+          ]
+        },
+        {
+          "title": "Income documents",
+          "kycItems": [
+            {
+              "point": "Income proof or financial statements"
+            },
+            {
+              "point": "Bank statements"
+            },
+            {
+              "point": "Blank cancelled cheque"
+            }
+          ]
+        },
+        {
+          "title": "Property-related documents",
+          "kycItems": [
+            {
+              "point": "Property ownership documents"
+            },
+            {
+              "point": "Title deeds and agreements"
+            },
+            {
+              "point": "Property tax receipts"
+            },
+            {
+              "point": "Approved valuation reports (as applicable)"
+            }
+          ]
+        }
+      ],
+      "conclusionImg": "/images/loans/loan-against-property-conclusion.webp",
+      "conclusionHeading": "Funding backed by your property",
+      "conclusionText": "Loan Against Property terms are structured based on property value and applicant profile. If you need assistance before applying, our team is available to guide you through the process.",
+      "conclusionCtaContent": "Apply Now",
+      "conclusionCtaHref": "/apply/loan-against-property",
+      "footerHeading": "Apply for a Loan Against Property",
+      "footerText": "Share your basic details to begin the application. Our team will review your request and guide you through the next steps.",
+      "footerCtaContent": "Apply Now",
+      "footerCtaHref": "/apply/loan-against-property",
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "question": "What types of properties are accepted?",
+          "answer": "Residential and commercial properties may be considered, subject to assessment and verification."
+        },
+        {
+          "question": "Can the loan be used for business purposes?",
+          "answer": "Yes, loans against property may be structured for both personal and business-related requirements."
+        },
+        {
+          "question": "How is loan eligibility determined?",
+          "answer": "Eligibility depends on property valuation, ownership status, applicant profile, and repayment capacity."
+        },
+        {
+          "question": "Are interest rates fixed?",
+          "answer": "Interest rates are determined after assessment and may vary based on the property and applicant profile."
+        },
+        {
+          "question": "Does submitting an application guarantee loan approval?",
+          "answer": "No, all applications are subject to internal assessment, property verification, and approval."
+        }
+      ]
+    },
+    {
+      "id": "cash-credit-facility",
+      "pathname": "cash-credit-facility",
+      "title": "Cash Credit Facility",
+      "bannerImg": "/images/loans/cash-credit-facility.webp",
+      "bannerTitle": "Working capital support for day-to-day operations",
+      "bannerCardText": "BDC Capital Private Limited offers cash credit facilities designed to support ongoing working capital requirements through a structured and responsible assessment process.",
+      "bannerCta1": "Apply Now",
+      "bannerHref1": "/apply/cash-credit-facility",
+      "bannerCta2": "Get a Call Back",
+      "bannerHref2": "/contact-us",
+      "aboutHeading": "About the Cash Credit Facility",
+      "aboutDescription": "A cash credit facility supports day-to-day working capital needs such as inventory and operating expenses. BDC Capital Private Limited evaluates applications based on business operations and financial performance, ensuring transparent and responsible credit use.",
+      "benefitsHeading": "Benefits of Cash Credit Facility",
+      "benefits": [
+        {
+          "icon": "/icons/graph_1.svg",
+          "benefitText": "Designed to support ongoing working capital requirements"
+        },
+        {
+          "icon": "/icons/commit.svg",
+          "benefitText": "Credit access linked to business operating cycles"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "benefitText": "Suitable for inventory and receivables-based funding needs"
+        },
+        {
+          "icon": "/icons/candlestick_chart.svg",
+          "benefitText": "Assessment aligned with stock levels and business turnover"
+        },
+        {
+          "icon": "/icons/change_circle.svg",
+          "benefitText": "Facility structured around inventory levels and receivables cycle"
+        },
+        {
+          "icon": "/icons/percent.svg",
+          "benefitText": "Interest and applicable charges are determined based on utilisation and assessment"
+        }
+      ],
+      "eligibilityHeading": "Eligibility & Assessment",
+      "eligibilitySectionText": "Cash credit facility eligibility is assessed based on business profile, operating cycle, financial records, and documentation.",
+      "eligibility": [
+        {
+          "icon": "/icons/account_circle.svg",
+          "title": "Eligible Applicants",
+          "description": "Proprietorship, Limited Liability Partnership, Company"
+        },
+        {
+          "icon": "/icons/currency_rupee.svg",
+          "title": "Loan Amount",
+          "description": "Up to ₹10 Crore"
+        }
+      ],
+      "eligibilityConclusion": "Sanctioned limits, interest rates, and charges are determined after assessment and verification.",
+      "whoCanApplyHeading": "Who Can Apply",
+      "whoCanApply": [
+        {
+          "img": "/images/loans/businesses-msme.webp",
+          "title": "Businesses and MSMEs"
+        },
+        {
+          "img": "/images/loans/businesses-llp.webp",
+          "title": "Proprietorships, Partnerships, LLPs, and Companies"
+        },
+        {
+          "img": "/images/loans/businesses-enterprises.webp",
+          "title": "Enterprises with inventory or receivables-based operations"
+        },
+        {
+          "img": "/images/loans/businesses-working-capital.webp",
+          "title": "Businesses requiring ongoing working capital support"
+        }
+      ],
+      "processHeading": "A simple 3-step process",
+      "process": [
+        {
+          "step": 1,
+          "title": "Submit basic details",
+          "description": "Select Cash Credit Facility and share your initial information."
+        },
+        {
+          "step": 2,
+          "title": "Working capital review",
+          "description": "Our team reviews business details and connects with you to understand operating cycles and funding requirements."
+        },
+        {
+          "step": 3,
+          "title": "Verification and next steps",
+          "description": "Financial and operational verification is completed, followed by further guidance. Facility sanction is subject to assessment and internal policies."
+        }
+      ],
+      "kycHeading": "KYC Documents",
+      "kyc": [
+        {
+          "title": "Identity & business documents",
+          "kycItems": [
+            {
+              "point": "PAN (Mandatory)"
+            },
+            {
+              "point": "Business registration documents"
+            },
+            {
+              "point": "Authorisation documents (where applicable)"
+            }
+          ]
+        },
+        {
+          "title": "Financial documents",
+          "kycItems": [
+            {
+              "point": "Bank statements"
+            },
+            {
+              "point": "Financial statements"
+            },
+            {
+              "point": "Income tax returns"
+            },
+            {
+              "point": "Blank cancelled cheque"
+            },
+            {
+              "point": "Stock and receivables statements (as applicable)"
+            }
+          ]
+        }
+      ],
+      "conclusionImg": "/images/loans/cash-credit-facility-conclusion.webp",
+      "conclusionHeading": "Keeping business operations running smoothly",
+      "conclusionText": "Cash credit facilities are structured based on business operations and working capital requirements. If you would like to discuss suitability before applying, our team is available to guide you.",
+      "conclusionCtaContent": "Apply Now",
+      "conclusionCtaHref": "/apply/cash-credit-facility",
+      "footerHeading": "Apply for a Cash Credit Facility",
+      "footerText": "Share your basic details to begin the application. Our team will review your request and guide you through the next steps.",
+      "footerCtaContent": "Apply Now",
+      "footerCtaHref": "/apply/cash-credit-facility",
+      "faqHeading": "FAQs",
+      "faq": [
+        {
+          "question": "How does a cash credit facility work?",
+          "answer": "A cash credit facility provides access to funds to meet day-to-day working capital requirements, subject to approved limits and assessment."
+        },
+        {
+          "question": "How is the cash credit limit decided?",
+          "answer": "The limit is determined based on business turnover, operating cycle, and internal evaluation criteria."
+        },
+        {
+          "question": "Is interest charged on the full limit?",
+          "answer": "Interest is generally charged on the utilised amount, subject to applicable terms."
+        },
+        {
+          "question": "Can the facility be renewed?",
+          "answer": "Renewal is subject to periodic review and assessment."
+        },
+        {
+          "question": "Does submitting an application guarantee approval?",
+          "answer": "No, all applications are subject to internal assessment and verification."
+        }
+      ]
+    }
+  ]
+}

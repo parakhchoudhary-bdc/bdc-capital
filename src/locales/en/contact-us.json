@@ -1,0 +1,43 @@
+{
+  "heading": "Get in touch with BDC Capital",
+  "text": "For loan-related enquiries, application support, or general information, our team is here to assist you.",
+  "addressContainer": {
+    "title": "Registered office",
+    "address": "BDC Capital Private Limited \n 1602, Signature by Lotus, Veera Desai Industrial Estate, \n Andheri West, Mumbai, \n Maharashtra - 400053"
+  },
+  "emailContainer": {
+    "title": "Email",
+    "email": "siddhesh@bombaydc.com"
+  },
+  "contactContainer": {
+    "title": "Contact",
+    "contact": "+91 9819981354"
+  },
+  "form": {
+    "nameField": {
+      "label": "Full Name",
+      "placeholder": "Your full name",
+      "error": "Name must be at least 2 characters."
+    },
+    "phoneNumberField": {
+      "label": "Mobile Number",
+      "placeholder": "Your mobile number",
+      "error": "Please enter a valid 10-digit phone number."
+    },
+    "emailField": {
+      "label": "Email ID",
+      "placeholder": "Your email id",
+      "error": "Please enter a valid email id."
+    },
+    "selectLoanTypeField": {
+      "label": "Loan Type",
+      "placeholder": "",
+      "error": "Please select a loan type."
+    },
+    "msgField": {
+      "label": "Message",
+      "placeholder": "Enter your message here..."
+    },
+    "submit": "Submit"
+  }
+}

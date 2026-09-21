@@ -1,0 +1,505 @@
+{
+  "common": {
+    "selectLoanType": {
+      "formHeading": "Let's Get Started",
+      "formDescription": "Select a loan type and enter your details to continue.",
+      "ctaContent": "Continue",
+      "input": [
+        {
+          "inputType": "select",
+          "inputLabel": "Select Loan Type",
+          "error": "Please select loan type"
+        },
+        {
+          "inputType": "number",
+          "inputLabel": "Mobile Number",
+          "inputPlaceholder": "Enter your valid mobile number",
+          "error": "Please select loan type"
+        }
+      ]
+    },
+    "otpVerification": {}
+  },
+  "loansJourneyData": [
+    {
+      "id": "personal-loan",
+      "pathname": "personal-loan",
+      "title": "Personal Loan",
+      "loanJourney": {
+        "step1": {
+          "title": "Personal details",
+          "form": [
+            {
+              "inputLabel": "Full Name",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your full name",
+              "id": "fullName",
+              "name": "fullName"
+            },
+            {
+              "inputLabel": "Mobile Number",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter 10 digit mobile number",
+              "id": "phoneNumber",
+              "name": "phoneNumber"
+            },
+            {
+              "inputLabel": "Email ID",
+              "inputType": "email",
+              "required": true,
+              "inputPlaceholder": "Enter your email",
+              "id": "email",
+              "name": "email"
+            },
+            {
+              "inputLabel": "Date of Birth",
+              "inputType": "date",
+              "required": true,
+              "id": "dob",
+              "name": "dob",
+              "inputError": "Please enter a valid Date of birth",
+              "ageError": "You must be at least 21 years old"
+            },
+            {
+              "inputLabel": "PAN Number",
+              "inputType": "text",
+              "required": false,
+              "inputPlaceholder": "Enter your valid PAN number",
+              "id": "pan",
+              "name": "pan"
+            },
+            {
+              "inputLabel": "Aadhaar Number",
+              "inputType": "number",
+              "required": false,
+              "inputPlaceholder": "Enter Aadhaar number",
+              "id": "aadhaar",
+              "name": "aadhaar"
+            },
+            {
+              "inputLabel": "Current Address",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your current address",
+              "id": "currentAddress",
+              "name": "currentAddress"
+            },
+            {
+              "inputLabel": "PIN Code",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter PIN Code",
+              "id": "pincode",
+              "name": "pincode"
+            }
+          ]
+        },
+        "step2": "Employment details",
+        "step3": "Loan & security details",
+        "step4": "Review & submit"
+      }
+    },
+    {
+      "id": "business-loan",
+      "pathname": "business-loan",
+      "title": "Business Loan",
+      "loanJourney": {
+        "step1": {
+          "title": "Personal details",
+          "form": [
+            {
+              "inputLabel": "Full Name",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your full name",
+              "id": "fullName",
+              "name": "fullName"
+            },
+            {
+              "inputLabel": "Mobile Number",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter 10 digit mobile number",
+              "id": "phoneNumber",
+              "name": "phoneNumber"
+            },
+            {
+              "inputLabel": "Email ID",
+              "inputType": "email",
+              "required": true,
+              "inputPlaceholder": "Enter your email",
+              "id": "email",
+              "name": "email"
+            },
+            {
+              "inputLabel": "Date of Birth",
+              "inputType": "date",
+              "required": true,
+              "id": "dob",
+              "name": "dob",
+              "inputError": "Please enter a valid Date of birth",
+              "ageError": "You must be at least 21 years old"
+            },
+            {
+              "inputLabel": "PAN Number",
+              "inputType": "text",
+              "required": false,
+              "inputPlaceholder": "Enter your valid PAN number",
+              "id": "pan",
+              "name": "pan"
+            },
+            {
+              "inputLabel": "Aadhaar Number",
+              "inputType": "number",
+              "required": false,
+              "inputPlaceholder": "Enter Aadhaar number",
+              "id": "aadhaar",
+              "name": "aadhaar"
+            },
+            {
+              "inputLabel": "Current Address",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your current address",
+              "id": "currentAddress",
+              "name": "currentAddress"
+            },
+            {
+              "inputLabel": "PIN Code",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter PIN Code",
+              "id": "pincode",
+              "name": "pincode"
+            }
+          ]
+        },
+        "step2": "Business details",
+        "step3": "Loan & financial details",
+        "step4": "Review & submit"
+      }
+    },
+    {
+      "id": "housing-loan",
+      "pathname": "housing-loan",
+      "title": "Housing Loan",
+      "loanJourney": {
+        "step1": {
+          "title": "Personal details",
+          "form": [
+            {
+              "inputLabel": "Full Name",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your full name",
+              "id": "fullName",
+              "name": "fullName"
+            },
+            {
+              "inputLabel": "Mobile Number",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter 10 digit mobile number",
+              "id": "phoneNumber",
+              "name": "phoneNumber"
+            },
+            {
+              "inputLabel": "Email ID",
+              "inputType": "email",
+              "required": true,
+              "inputPlaceholder": "Enter your email",
+              "id": "email",
+              "name": "email"
+            },
+            {
+              "inputLabel": "Date of Birth",
+              "inputType": "date",
+              "required": true,
+              "id": "dob",
+              "name": "dob",
+              "inputError": "Please enter a valid Date of birth",
+              "ageError": "You must be at least 21 years old"
+            },
+            {
+              "inputLabel": "PAN Number",
+              "inputType": "text",
+              "required": false,
+              "inputPlaceholder": "Enter your valid PAN number",
+              "id": "pan",
+              "name": "pan"
+            },
+            {
+              "inputLabel": "Aadhaar Number",
+              "inputType": "number",
+              "required": false,
+              "inputPlaceholder": "Enter Aadhaar number",
+              "id": "aadhaar",
+              "name": "aadhaar"
+            },
+            {
+              "inputLabel": "Current Address",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your current address",
+              "id": "currentAddress",
+              "name": "currentAddress"
+            },
+            {
+              "inputLabel": "PIN Code",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter PIN Code",
+              "id": "pincode",
+              "name": "pincode"
+            }
+          ]
+        },
+        "step2": "Income details",
+        "step3": "Property & loan details",
+        "step4": "Review & submit"
+      }
+    },
+    {
+      "id": "vehicle-loan",
+      "pathname": "vehicle-loan",
+      "title": "Vehicle Loan",
+      "loanJourney": {
+        "step1": {
+          "title": "Personal details",
+          "form": [
+            {
+              "inputLabel": "Full Name",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your full name",
+              "id": "fullName",
+              "name": "fullName"
+            },
+            {
+              "inputLabel": "Mobile Number",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter 10 digit mobile number",
+              "id": "phoneNumber",
+              "name": "phoneNumber"
+            },
+            {
+              "inputLabel": "Email ID",
+              "inputType": "email",
+              "required": true,
+              "inputPlaceholder": "Enter your email",
+              "id": "email",
+              "name": "email"
+            },
+            {
+              "inputLabel": "Date of Birth",
+              "inputType": "date",
+              "required": true,
+              "id": "dob",
+              "name": "dob",
+              "inputError": "Please enter a valid Date of birth",
+              "ageError": "You must be at least 21 years old"
+            },
+            {
+              "inputLabel": "PAN Number",
+              "inputType": "text",
+              "required": false,
+              "inputPlaceholder": "Enter your valid PAN number",
+              "id": "pan",
+              "name": "pan"
+            },
+            {
+              "inputLabel": "Aadhaar Number",
+              "inputType": "number",
+              "required": false,
+              "inputPlaceholder": "Enter Aadhaar number",
+              "id": "aadhaar",
+              "name": "aadhaar"
+            },
+            {
+              "inputLabel": "Current Address",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your current address",
+              "id": "currentAddress",
+              "name": "currentAddress"
+            },
+            {
+              "inputLabel": "PIN Code",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter PIN Code",
+              "id": "pincode",
+              "name": "pincode"
+            }
+          ]
+        },
+        "step2": "Income details",
+        "step3": "Vehicle & loan details",
+        "step4": "Review & submit"
+      }
+    },
+    {
+      "id": "loan-against-property",
+      "pathname": "loan-against-property",
+      "title": "Loan Against Property",
+      "loanJourney": {
+        "step1": {
+          "title": "Personal details",
+          "form": [
+            {
+              "inputLabel": "Full Name",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your full name",
+              "id": "fullName",
+              "name": "fullName"
+            },
+            {
+              "inputLabel": "Mobile Number",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter 10 digit mobile number",
+              "id": "phoneNumber",
+              "name": "phoneNumber"
+            },
+            {
+              "inputLabel": "Email ID",
+              "inputType": "email",
+              "required": true,
+              "inputPlaceholder": "Enter your email",
+              "id": "email",
+              "name": "email"
+            },
+            {
+              "inputLabel": "Date of Birth",
+              "inputType": "date",
+              "required": true,
+              "id": "dob",
+              "name": "dob",
+              "inputError": "Please enter a valid Date of birth",
+              "ageError": "You must be at least 21 years old"
+            },
+            {
+              "inputLabel": "PAN Number",
+              "inputType": "text",
+              "required": false,
+              "inputPlaceholder": "Enter your valid PAN number",
+              "id": "pan",
+              "name": "pan"
+            },
+            {
+              "inputLabel": "Aadhaar Number",
+              "inputType": "number",
+              "required": false,
+              "inputPlaceholder": "Enter Aadhaar number",
+              "id": "aadhaar",
+              "name": "aadhaar"
+            },
+            {
+              "inputLabel": "Current Address",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your current address",
+              "id": "currentAddress",
+              "name": "currentAddress"
+            },
+            {
+              "inputLabel": "PIN Code",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter PIN Code",
+              "id": "pincode",
+              "name": "pincode"
+            }
+          ]
+        },
+        "step2": "Employment details",
+        "step3": "Property & loan details",
+        "step4": "Review & submit"
+      }
+    },
+    {
+      "id": "cash-credit-facility",
+      "pathname": "cash-credit-facility",
+      "title": "Cash Credit Facility",
+      "loanJourney": {
+        "step1": {
+          "title": "Personal details",
+          "form": [
+            {
+              "inputLabel": "Full Name",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your full name",
+              "id": "fullName",
+              "name": "fullName"
+            },
+            {
+              "inputLabel": "Mobile Number",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter 10 digit mobile number",
+              "id": "phoneNumber",
+              "name": "phoneNumber"
+            },
+            {
+              "inputLabel": "Email ID",
+              "inputType": "email",
+              "required": true,
+              "inputPlaceholder": "Enter your email",
+              "id": "email",
+              "name": "email"
+            },
+            {
+              "inputLabel": "Date of Birth",
+              "inputType": "date",
+              "required": true,
+              "id": "dob",
+              "name": "dob",
+              "inputError": "Please enter a valid Date of birth",
+              "ageError": "You must be at least 21 years old"
+            },
+            {
+              "inputLabel": "PAN Number",
+              "inputType": "text",
+              "required": false,
+              "inputPlaceholder": "Enter your valid PAN number",
+              "id": "pan",
+              "name": "pan"
+            },
+            {
+              "inputLabel": "Aadhaar Number",
+              "inputType": "number",
+              "required": false,
+              "inputPlaceholder": "Enter Aadhaar number",
+              "id": "aadhaar",
+              "name": "aadhaar"
+            },
+            {
+              "inputLabel": "Current Address",
+              "inputType": "text",
+              "required": true,
+              "inputPlaceholder": "Enter your current address",
+              "id": "currentAddress",
+              "name": "currentAddress"
+            },
+            {
+              "inputLabel": "PIN Code",
+              "inputType": "number",
+              "required": true,
+              "inputPlaceholder": "Enter PIN Code",
+              "id": "pincode",
+              "name": "pincode"
+            }
+          ]
+        },
+        "step2": "Business operations & financials",
+        "step3": "Cash credit requirement details",
+        "step4": "Review & submit"
+      }
+    }
+  ]
+}

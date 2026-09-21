@@ -1,0 +1,109 @@
+{
+  "header": {
+    "home": "Home",
+    "loans": "Loans",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "applyNow": "Apply Now",
+    "loans_dropdown": [
+      {
+        "loanTitle": "Personal Loan",
+        "loanDescription": "Flexible personal funding assessed responsibly."
+      },
+      {
+        "loanTitle": "Business Loan",
+        "loanDescription": "Credit solutions tailored to business needs."
+      },
+      {
+        "loanTitle": "Housing Loan",
+        "loanDescription": "Financing support for residential property needs."
+      },
+      {
+        "loanTitle": "Vehicle Loan",
+        "loanDescription": "Funding assistance for new or used vehicles."
+      },
+      {
+        "loanTitle": "Loan Against Property",
+        "loanDescription": "Credit secured against owned property."
+      },
+      {
+        "loanTitle": "Cash Credit Facility",
+        "loanDescription": "Ongoing working capital support for businesses."
+      }
+    ],
+    "english": "English",
+    "marathi": "Marathi"
+  },
+  "footer": {
+    "bombaydc": "BDC Capital Private Limited \n","address": "1602, Signature by Lotus, Veera Desai Industrial \n Estate, Andheri West, Mumbai, \n Maharashtra – 400053, India",
+    "cinNumber": "CIN: U65921MH2024PTC123456",
+    "nbfcRegsistration": "NBFC Registration B-13.02381 dated January 23, 2020",
+    "quickLocation": {
+      "title": "Quick Links",
+      "links": {
+        "home": "Home",
+        "aboutUs": "About BDC Capital",
+        "contactUs": "Contact Us"
+      }
+    },
+    "loanSolutions": {
+      "title": "Loan Solutions",
+      "links": {
+        "personalLoan": "Personal Loan",
+        "businessLoan": "Business Loan",
+        "housingLoan": "Housing Loan",
+        "vehicleLoan": "Vehicle Loan",
+        "loanAgainstProperty": "Loan Against Property",
+        "cashCreditFacility": "Cash Credit Facility"
+      }
+    },
+    "supportLegal": {
+      "title": "Support & Legal",
+      "links": {
+        "requestCallBack": "Request a Call Back",
+        "privacyPolicy": "Privacy Policy",
+        "termsConditions": "Terms & Conditions",
+        "sitemap": "Sitemap"
+      }
+    },
+    "copyRight": "BDC Capital Private Limited. All rights reserved."
+  },
+  "popup": {
+    "requestCallback": "Request a Call Back",
+    "fullName": "Full Name",
+    "mobileNumber": "Mobile Number",
+    "loanType": "Loan Type",
+    "pinCode": "Pin Code",
+    "city": "City",
+    "preferredCallTime": "Preferred Call Time",
+    "select": "Select",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "requestSubmitted": "Request Submitted",
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "mobileNumber": "Mobile number",
+      "pinCode": "Enter pincode",
+      "city": "City"
+    },
+    "errors": {
+      "nameMin": "Name must be at least 2 characters",
+      "mobileInvalid": "Invalid mobile number",
+      "selectLoan": "Please select a loan type",
+      "pinCodeInvalid": "Invalid pin code",
+      "cityRequired": "City is required",
+      "selectTime": "Please select a preferred time"
+    },
+    "options": {
+      "personalLoan": "Personal Loan",
+      "businessLoan": "Business Loan",
+      "housingLoan": "Housing Loan",
+      "vehicleLoan": "Vehicle Loan",
+      "loanAgainstProperty": "Loan Against Property",
+      "cashCreditFacility": "Cash Credit Facility",
+      "morning": "Morning (10am-12pm)",
+      "afternoon": "Afternoon (12pm-4pm)",
+      "evening": "Evening (4pm-7pm)"
+    }
+  }
+}

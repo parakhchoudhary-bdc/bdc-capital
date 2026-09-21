@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbf8f2;
+  --foreground: #333333;
+  --white: #ffffff;
+  --mainTitleColor: #333333;
+  --titleColor: #333333;
+  --mainTitleCopyColor: #707070;
+  --titleCopyColor: #707070;
+  --sectionBreak: #fbf8f2;
+  --borderColor: #d9d9d9;
+  --orange: #005a45;
+
+  /* Theme variables specified by user */
+  --black-p: #333333;
+  --black-s: #707070;
+  --asset-bg-color: #CFCFD6;
+  --separator-color: #d9d9d9;
+  --bg-color: #fbf8f2;
+  --primary-color: #005a45;
+  --primary-color-2: #005a45;
+  --stripe-bg-color: #E2F3EE;
+  --error-color: #B5031C;
+  --white-color: #ffffff;
+  --button-hover: #023632;
+  --primary-pressed: #022724;
+  --cream: #fbf8f2;
+}
+
+@theme inline {
+  --color-background: var(--bg-color);
+  --color-foreground: var(--black-p);
+  --color-white: var(--white-color);
+  --color-mainTitleColor: var(--black-p);
+  --color-titleColor: var(--black-p);
+  --color-mainTitleCopyColor: var(--black-s);
+  --color-titleCopyColor: var(--black-s);
+  --color-sectionBreak: var(--cream);
+  --color-borderColor: var(--separator-color);
+  --color-orange: var(--primary-color);
+  --color-primary: var(--primary-color);
+  --color-primary-2: var(--primary-color-2);
+  --color-stripe-bg: var(--stripe-bg-color);
+  --color-error: var(--error-color);
+  --color-button-hover: var(--button-hover);
+  --color-primary-pressed: var(--primary-pressed);
+  --color-cream: var(--cream);
+
+  --font-figtree: var(--font-figtree);
+
+  --text-display: clamp(2.5rem, 2.011rem + 2.17vw, 3.75rem);
+  --text-heading1: clamp(1.75rem, 1.457rem + 1.3vw, 2.5rem);
+  --text-heading2: clamp(1.563rem, 1.44rem + 0.54vw, 1.875rem);
+  --text-subHeading: clamp(1.25rem, 1.152rem + 0.43vw, 1.5rem);
+  --text-body1: clamp(1.125rem, 1.076rem + 0.22vw, 1.25rem);
+  --text-bodyBase: clamp(1rem, 0.951rem + 0.22vw, 1.125rem);
+  --text-body2: clamp(0.875rem, 0.826rem + 0.22vw, 1rem);
+
+  --tracking-display: clamp(-0.08rem, 0.06rem + 0.09vw, -0.13rem);
+  --tracking-heading1: clamp(-0.035rem, 0.01rem + 0.11vw, -0.1rem);
+  --tracking-heading2: clamp(-0.03rem, 0.018rem + 0.05vw, -0.06rem);
+  --tracking-subHeading: -0.48px;
+  --tracking-base: -0.32px;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-figtree);
+  position: relative;
+  z-index: 10;
+}
+
+
+:root.lang-english {
+  --primary-font: var(--font-figtree);
+}
+
+:root.lang-english body {
+  font-family: var(--font-figtree) !important;
+}
+
+:root.lang-marathi {
+  font-family: var(--font-kohinoor) !important;
+}
+
+:root.lang-marathi body {
+  font-family: var(--font-kohinoor) !important;
+  letter-spacing: 0.01em;
+}
+
+:root.lang-marathi .font-figtree {
+  font-family: var(--font-kohinoor) !important;
+}
+
+:root.lang-marathi body,
+:root.lang-marathi body * {
+  line-height: 136% !important;
+}
+
+/* Force Figtree Override */
+:root.lang-marathi .force-font-figtree,
+:root.lang-marathi .force-font-figtree * {
+  font-family: var(--font-figtree) !important;
+  letter-spacing: normal !important;
+  line-height: normal !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background: #005a45;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background: #005a45;
+  cursor: pointer;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.custom-select-wrapper::after,
+.custom-select-wrapper-journey::after,
+.custom-select-popup::after {
+  content: "";
+  position: absolute;
+  right: 16px;
+  width: 14px;
+  height: 14px;
+  background-image: url(/icons/keyboard_arrow_down.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.custom-select-wrapper::after {
+  top: 62px;
+}
+
+.custom-select-wrapper-journey::after {
+  top: 26px;
+}
+
+.custom-select-popup::after {
+  top: 54px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: none;
+  -webkit-text-fill-color: inherit !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.video-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  will-change: background-color;
+}
