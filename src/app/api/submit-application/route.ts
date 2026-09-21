@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
 
     const applicantName = formData.fullName || formData.name || "Applicant";
     const subject = `Full Application Submitted: ${loanType} - ${applicantName}`;
-    const recipients = "milind.bibodi@bombaydc.com, parakh.choudhary@bombaydc.com, nobby@bomabydc.com, sunil@bomabydc.com";
+    const recipients = "milind.bibodi@bombaydc.com, milind.bibodi@bombaydc.com, parakh.choudhary@bombaydc.com, nobby@bomabydc.com, sunil@bomabydc.com";
 
     // Colors mapping for email
     const colors = {

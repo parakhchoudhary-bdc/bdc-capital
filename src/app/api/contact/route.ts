@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     });
 
     const subject = `Contact Form Inquiry: ${loanType} from ${fullName}`;
-    const recipients = "milind.bibodi@bombaydc.com, parakh.choudhary@bombaydc.com, nobby@bomabydc.com, sunil@bomabydc.com";
+    const recipients = "milind.bibodi@bombaydc.com, milind.bibodi@bombaydc.com, parakh.choudhary@bombaydc.com, nobby@bomabydc.com, sunil@bomabydc.com";
 
     // Colors mapping
     const colors = {
