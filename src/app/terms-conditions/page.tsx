@@ -25,10 +25,7 @@ export default function TermsAndConditions() {
                 <div className="flex flex-col gap-4">
                     <h2 className="text-subHeading tracking-subHeading leading-[110%] font-medium text-titleColor">1. About BDC Capital</h2>
                     <p className="text-bodyBase tracking-base leading-[124%] text-mainTitleCopyColor">
-                        BDC Capital Private Limited (formerly known as Pyar Finance Private Limited) is a
-                        Non-Banking Financial Company (NBFC) registered with the Reserve Bank of India (RBI).
-                        All loan products and services offered are subject to applicable laws, regulations, and
-                        internal policies.
+                        BDC Capital Private Limited is a Non-Banking Financial Company (NBFC) registered with the Reserve Bank of India (RBI). All loan products and services offered are subject to applicable laws, regulations, and internal policies.
                     </p>
                 </div>
 
@@ -130,9 +127,6 @@ export default function TermsAndConditions() {
                         </p>
                         <p className="text-bodyBase tracking-base leading-[124%] text-mainTitleCopyColor font-bold">
                             BDC Capital Private Limited
-                        </p>
-                        <p className="text-bodyBase tracking-base leading-[124%] text-mainTitleCopyColor">
-                            (Formerly known as Pyar Finance Private Limited)
                         </p>
                         <p className="text-bodyBase tracking-base leading-[124%] text-mainTitleCopyColor">
                             1602, Signature by Lotus, Veera Desai Industrial Estate,
