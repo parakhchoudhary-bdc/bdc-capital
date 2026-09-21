@@ -180,9 +180,6 @@ export default function PrivacyPolicy() {
               BDC Capital Private Limited
             </p>
             <p className="text-bodyBase tracking-base leading-[124%] text-mainTitleCopyColor">
-              (Formerly known as Pyar Finance Private Limited)
-            </p>
-            <p className="text-bodyBase tracking-base leading-[124%] text-mainTitleCopyColor">
               1602, Signature by Lotus, Veera Desai Industrial Estate,
               <br />
               Andheri West, Mumbai, Maharashtra - 400053, India
